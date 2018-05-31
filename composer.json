@@ -1,0 +1,31 @@
+{
+    "name": "evgeny-l/laravel-epochta-sms",
+    "description": "Manages epochta.ru SMS gateway integration for Laravel.",
+    "keywords": ["laravel", "epochta", "epochtaru", "sms"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Evgeny Leksunin",
+            "email": "evgeny.msc@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "illuminate/support": "^5.0,<5.6"
+    },
+    "require-dev": {
+        "illuminate/config": "^5.0,<5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "EvgenyL\\LaravelEPochtaRuSMS\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "EvgenyL\\LaravelEPochtaRuSMS\\LaravelEPochtaRuSMSServiceProvider"
+            ]
+        }
+    }
+}
